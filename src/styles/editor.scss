@@ -69,4 +69,24 @@
   .circle-picker {
     margin-bottom: 1.5rem !important;
   }
+
+  .button-outline {
+    font-size: 1rem;
+    background-color: transparent;
+    color: $white;
+    padding: 0.7rem 2rem;
+    border-radius: 0.25rem;
+    //text-transform: uppercase;
+    border: 1px solid $white;
+    transition: background-color 0.2s ease-in-out;
+    margin: 0 0.5rem 2rem;
+
+    &:hover {
+      cursor: pointer;
+      background-color: $white;
+      border-color: $white;
+      color: $black;
+    }
+  }
+
 }
