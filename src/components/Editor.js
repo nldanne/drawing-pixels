@@ -31,7 +31,6 @@ function Editor() {
 
   const changeColorHandler = (color) => {
     setSelectedColor(color.hex);
-    //console.log(selectedColor);
   };
 
   return (
