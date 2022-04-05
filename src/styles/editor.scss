@@ -87,6 +87,29 @@
       border-color: $white;
       color: $black;
     }
+
+
   }
+
+  .button-back {
+    font-size: 1rem;
+    background-color: transparent;
+    color: $white;
+    padding: 0.7rem 2rem;
+    //border-radius: 0.25rem;
+    //text-transform: uppercase;
+    //border-bottom: 1px solid $white;
+    border: none;
+    text-decoration: underline;
+    transition: background-color 0.2s ease-in-out;
+    margin: 0 0.5rem 2rem;
+
+
+    &:hover {
+      cursor: pointer;
+      color: $green;
+    }
+  }
+
 
 }

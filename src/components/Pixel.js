@@ -22,7 +22,12 @@ function Pixel({ selectedColor }) {
     }
 
     setCanChangeColor(true);
-  }
+  };
+
+
+  const removeColor = () => {
+    setPixelColor('#fff');
+  };
 
   return (
     <div 
@@ -31,6 +36,7 @@ function Pixel({ selectedColor }) {
       onClick={applyColor} 
       onMouseEnter={changeColorOnHover} 
       onMouseLeave={resetColor}
+      onDoubleClick={removeColor}
     >
 
     </div>
