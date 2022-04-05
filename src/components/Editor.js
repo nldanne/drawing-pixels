@@ -66,16 +66,21 @@ function Editor() {
       > {buttonText}
       </button>
 
-      {hideDrawingCanvas && (<CirclePicker 
-        color={selectedColor} 
-        onChangeComplete={changeColorHandler}
-      />  )}
+      {hideOptions && (
+        <>
+          <CirclePicker 
+            color={selectedColor} 
+            onChangeComplete={changeColorHandler}
+          />
 
-      <DrawingPanel 
-        width={canvasWidth}
-        height={canvasHeight}
-        selectedColor={selectedColor}
-      />
+          <DrawingPanel 
+            width={canvasWidth}
+            height={canvasHeight}
+            selectedColor={selectedColor}
+          />  
+        </>
+      )}
+
     </div> 
   )
 }
