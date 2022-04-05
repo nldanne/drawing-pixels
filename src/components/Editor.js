@@ -25,7 +25,7 @@ function Editor() {
     setHideDrawingCanvas(!hideDrawingCanvas);
 
     buttonText ==='Start drawing' 
-      ? setButtonText('reset') 
+      ? setButtonText('back to menu') 
       : setButtonText('Start drawing');
   };
 

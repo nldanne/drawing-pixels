@@ -1,7 +1,7 @@
 @import "properties.scss";
 
 #editor {
-  border: 1px solid $red;
+  border: 1px solid $green;
   border-radius: 0.25rem;
   padding: 1rem 4rem 2rem 4rem;
   margin-top: 2rem;
@@ -42,7 +42,7 @@
 
       &:focus {
         outline: none !important;
-        border-color: $red;
+        border-color: $green;
         box-shadow: 0 0 0.5rem $grey;
       }
     }
@@ -50,7 +50,7 @@
 
   .button {
     font-size: 1.25rem;
-    background-color: $red;
+    background-color: $green;
     color: $white;
     padding: 1rem 3rem;
     border-radius: 0.25rem;
@@ -62,7 +62,7 @@
     &:hover {
       cursor: pointer;
       background-color: transparent;
-      border-color: $red;
+      border-color: $green;
     }
   }
 

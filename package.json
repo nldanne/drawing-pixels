@@ -7,8 +7,11 @@
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.0.0",
+    "react-color": "^2.19.3",
+    "react-component-export-image": "^1.0.6",
     "react-dom": "^18.0.0",
     "react-scripts": "5.0.0",
+    "sass": "^1.49.11",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
